@@ -1,12 +1,12 @@
-import NavBar from '@/components/NavBar';
+import Seo from '@/components/Seo';
 import React from 'react';
 
 const about = () => {
   return (
-    <div>
-      <NavBar />
+    <>
+      <Seo title='about' />
       <h1>About</h1>
-    </div>
+    </>
   );
 };
 
